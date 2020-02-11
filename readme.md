@@ -6,7 +6,7 @@
 3. Lista pracowników (dodawanie, edycja, usuwanie)
 4. Lista wypozyczen (dodawanie, edycja, usuwanie) + nie oddane na czas
 
-________Tabele____________
+## Tabele
 1. Pojazd
 - id
 - marka
@@ -49,11 +49,12 @@ Powi¹zania:
 ## Okna programu
 
 1. Okno glowne
-1.1. Logowanie
-1.2. Lista pojazdow
-1.2.1. Lista pojazdow mozliwych do wypozyczenia
-1.2.2. Dodawanie.edycja pojazdow
-1.2.3. Usuwanie pojazdow (usuwa wszystkie dane lacznie z wypozyczeniami danego pojazdu)
+   - Logowanie
+   - Lista pojazdow
+     - Lista pojazdow mozliwych do wypozyczenia
+     - Dodawanie.edycja pojazdow
+     - Usuwanie pojazdow (usuwa wszystkie dane lacznie z wypozyczeniami danego pojazdu)
+
 1.3. Lista klientow
 1.3.1. Lista klientow zarejestrowanych w systemie
 1.3.2. Dodawanie/edycja klienta
