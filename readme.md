@@ -1,5 +1,5 @@
-CarRental
-Wypo¿yczalnia samochodów
+# CarRental
+## Wypo¿yczalnia samochodów
 
 1. Lista pojazdów do wypo¿yczenia (dodawanie, edycja)
 2. Lista klientów wypozyczalni (dodawanie, edycja, usuwanie)
@@ -9,6 +9,7 @@ Wypo¿yczalnia samochodów
 ________Tabele____________
 Pojazd
 id
+
 marka
 model
 nr_rej
@@ -46,7 +47,7 @@ wypozyczenie - pojazd
 
 
 
-__________Okna programu___________
+## Okna program
 
 1. Okno glowne
 1.1. Logowanie
