@@ -7,47 +7,46 @@
 4. Lista wypozyczen (dodawanie, edycja, usuwanie) + nie oddane na czas
 
 ________Tabele____________
-Pojazd
-id
+1. Pojazd
+- id
+- marka
+- model
+- nr_rej
+- vin
+- opis
+- cena
 
-marka
-model
-nr_rej
-vin
-opis
-cena
+2. Pracownik
+- id
+- nazwa
+- login
+- haslo
 
-Pracownik
-id
-nazwa
-login
-haslo
+3. Klient
+- id
+- nazwa
+- adres
+- nr_tel
+- email
 
-Klient
-id
-nazwa
-adres
-nr_tel
-email
-
-Wypozyczenie
-id
-klient_id
-pojazd_id
-wypozyczajacypracownik_id
-data_od
-data_do
-zwrot
-komentarz
+4. Wypozyczenie
+- id
+- klient_id
+- pojazd_id
+- wypozyczajacypracownik_id
+- data_od
+- data_do
+- zwrot
+- komentarz
 
 Powi¹zania:
-wypozyczenie - pracownik
-wypozyczenie - klient
-wypozyczenie - pojazd
+- wypozyczenie - pracownik
+- wypozyczenie - klient
+- wypozyczenie - pojazd
 
 
 
-## Okna program
+## Okna programu
 
 1. Okno glowne
 1.1. Logowanie
